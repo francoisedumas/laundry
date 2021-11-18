@@ -1,0 +1,380 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Belleza', sans-serif;
+}
+a {
+  text-decoration: none;
+  color : white;
+}
+
+p {
+  font-size: 20px;
+}
+
+.top-container h2 {
+  font-weight: 100;
+  font-size: 32px;
+}
+
+.top-container {
+  background-color: #4e57f6;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-container img {
+  display: block;
+  margin: 0 auto;
+}
+.top-container .logo {
+ height: 50vh;
+}
+
+.top-container h1 {
+  letter-spacing: 0.25rem;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.big-btn {
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  border: 3px solid #6dffea;
+  border-radius: 40px;
+  background-color: #6dffea;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.big-btn:hover {
+  background-color: #232226;
+  box-shadow: 2px 2px 5px black;
+}
+
+.baseline-title {
+  text-align: center;
+  padding: 3rem;
+}
+
+.baseline-title h1 {
+  font-size: 2.5rem;
+}
+
+.baseline-title h2 {
+  font-size: 2rem;
+}
+
+.baseline-title p {
+  font-size: 1.5rem;
+}
+
+.middle-title {
+  margin-top: 3.83rem;
+  background: #232226;
+  color: white;
+  letter-spacing: 6px;
+  text-align: center;
+  padding: 3rem;
+}
+
+.middle-title h2 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.video-container {
+    text-align: center;
+    margin: 0px;
+}
+.video-container img {
+  border-radius: 3px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+}
+
+.cards-container h3 {
+  font-size: 1.5rem;
+}
+
+.card {
+  display: flex;
+  width: 28vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(230 230 230);
+  border: 1px solid rgb(230,230,230);
+  text-align: center;
+  flex-direction: column;
+}
+
+.card img {
+  height: 6rem;
+  margin: 0 auto;
+}
+
+.prices-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 48rem;
+  padding: 0rem 3rem;
+}
+
+.price-card {
+  display: flex;
+  width: 28vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(230 230 230);
+  border: 1px solid rgb(230, 230, 230);
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.price-card p {
+  margin: 0;
+}
+
+.card-info {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info-price {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.inline-price {
+  display: flex;
+  align-items: flex-end;
+}
+
+.price {
+  font-size: 3rem;
+  line-height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.price-card h2 {
+  text-align: center;
+  background-color: #232226;
+  color: #6dffea;
+  margin: 0;
+  padding: 2rem;
+  letter-spacing: 6px;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 2rem;
+}
+
+.price-card h3 {
+  font-size: 1.5rem;
+}
+
+.list-price-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.price-card img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: 'Belleza', sans-serif;
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  border: 3px solid #6dffea;
+  border-radius: 4rem;
+  background-color: #6dffea;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  color: #232226;
+  background-color: white;
+}
+
+.card-info-button {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-top: auto;
+}
+
+.bot-container {
+  background-color: #232226;
+  color: white;
+  text-align: center;
+}
+
+.bot-container {
+  margin-top: 3rem;
+  padding: 20px;
+}
+
+.bot-container p {
+  font-size: 1.5rem;
+}
+
+.bot-container a {
+  margin-top: 20px;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.bot-container h2 {
+  letter-spacing: 0.25rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.video {
+  width: 40vw;
+  height: 50vh;
+}
+
+.fa-heart {
+  color: red;
+  font-size: 1rem;
+}
+
+#signature {
+  text-align: right;
+  color: gray;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+@media(max-width: 992px) {
+  .top-container {
+    height: 50vh;
+    padding: 5rem 0rem;
+  }
+
+
+  .top-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prices-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card {
+    margin: 2rem auto;
+    width: 80vw;
+  }
+
+  .card img {
+    height: 8rem;
+  }
+
+  .video-container {
+  width: 90vw;
+  margin: 0px auto;
+  }
+
+  .video {
+    width: 70vw;
+    height: 30vh;
+  }
+
+  .baseline-title h1 {
+    font-size: 3rem;
+  }
+
+  .baseline-title h2 {
+    font-size: 3rem;
+  }
+
+  .baseline-title p {
+    font-size: 2.5rem;
+  }
+
+  .middle-title h2 {
+    font-size: 3rem;
+  }
+
+  .cards-container h3 {
+    font-size: 3rem;
+  }
+
+  .cards-container p {
+    font-size: 3rem;
+  }
+
+  .price-card {
+    margin: 2rem auto;
+    width: 80vw;
+  }
+
+  .price {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .per-time {
+    font-size: 3rem;
+  }
+
+  .engagement {
+    font-size: 3rem;
+  }
+
+  .price-card h2 {
+    font-size: 4rem;
+  }
+
+  .price-card h3 {
+    font-size: 3rem;
+  }
+
+  .card-info-list p {
+    font-size: 3rem;
+  }
+
+
+  .price-card img {
+    padding-top: 0.5rem;
+  }
+
+  .big-btn {
+    padding: 2rem 4rem;
+    border-radius: 5rem;
+    font-size: 3.5rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+    padding: 2rem 4rem;
+  }
+
+  #br {
+    display: none;
+  }
+}
